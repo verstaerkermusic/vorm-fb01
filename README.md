@@ -6,9 +6,9 @@ vørm fb01 is an audio effect by **verstaerker** that authentically models an an
 
 Shape drums, synths and textures with subtle movement, resonant sweeps or intense distortion.
 
-![vørm fb01 — Dark interface preview](images/vorm-fb01-dark.png)
+![vørm fb01 — Dark interface preview](images/vorm-fb01-dark_preview.jpg)
 
-*New Dark interface preview. Bright and Dark graphics are rendered; integration into the next plug-in build is in progress.*
+*Dark interface variant preview.*
 
 ## Features
 
