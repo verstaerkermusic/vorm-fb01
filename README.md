@@ -29,10 +29,6 @@ Shape drums, synths and textures with subtle movement, resonant sweeps or intens
 - Host sample rates from 32 to 192 kHz, including 44.1 and 48 kHz.
 - English and German interface and guides.
 
-## Downloads
-
-The next beta is being prepared under the new name. No plug-in binaries are published in this repository yet.
-
 ## Feedback
 
 Please [open an issue](https://github.com/verstaerkermusic/vorm-fb01/issues) and include your plug-in version, DAW, operating system, plug-in format, sample rate, buffer size and steps to reproduce the problem.
