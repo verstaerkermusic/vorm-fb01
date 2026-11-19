@@ -26,8 +26,33 @@ Shape drums, synths and textures with subtle movement, resonant sweeps or intens
 
 - **macOS 12+**: Apple Silicon and Intel; AU, VST3 and CLAP.
 - **Windows 10/11 x64**: VST3 and CLAP.
+- **Linux x86_64 beta**: VST3 and LV2; built on Ubuntu 22.04, X11 editor. Other distributions and real DAW setups need testing.
 - Host sample rates from 32 to 192 kHz, including 44.1 and 48 kHz.
 - English and German interface and guides.
+
+## Downloads — 0.27.2 beta
+
+- **[macOS — AU, VST3 and CLAP, Apple Silicon / Intel](https://github.com/verstaerkermusic/vorm-fb01/releases/download/v0.27.2/VORM-fb01-0.27.2-macOS-universal.zip)**
+- **[Windows x64 — VST3 and CLAP](https://github.com/verstaerkermusic/vorm-fb01/releases/download/v0.27.2/VORM-fb01-0.27.2-Windows-x64-beta.zip)**
+- **[Linux x86_64 beta — VST3 and LV2](https://github.com/verstaerkermusic/vorm-fb01/releases/download/v0.27.2/VORM-fb01-0.27.2-Linux-x86_64-beta.tar.gz)**
+
+See the [release page](https://github.com/verstaerkermusic/vorm-fb01/releases/tag/v0.27.2) for SHA256 checksums, the [English guide](https://github.com/verstaerkermusic/vorm-fb01/releases/download/v0.27.2/VORM_fb01_Quick_Guide_EN.pdf), [German guide](https://github.com/verstaerkermusic/vorm-fb01/releases/download/v0.27.2/VORM_fb01_Schnellanleitung_DE.pdf) and [one-page flyer](https://github.com/verstaerkermusic/vorm-fb01/releases/download/v0.27.2/VORM_fb01_Flyer_EN.pdf).
+
+Quit your DAW before installing. Follow **README.txt in your platform package** and keep only one copy of each plug-in ID in the scan folders. Back up/remove old copies when updating.
+
+**macOS:** extract the complete ZIP and run `Install-VORM-fb01.command`. The beta is ad-hoc signed and not notarized. If macOS blocks it, attempt to open it, then use **System Settings > Privacy & Security > Open Anyway**. No developer tools are required.
+
+**Windows:** copy the complete VST3 bundle and/or CLAP file to your plug-in folders and rescan.
+
+**Linux:** copy the complete bundles to `~/.vst3/` and `~/.lv2/`. The GUI uses X11; Wayland sessions may use XWayland. This first Linux beta has passed automated checks on Ubuntu 22.04; wider DAW testing is still needed.
+
+The PDF guides describe the controls; their installation Quick Start covers macOS. Use the package README for Windows/Linux installation.
+
+## What's included
+
+Bright and Dark interfaces with soft LED falloff; a permanent Input / Wet Level / Output row; processing quality in Settings; Equal Power as the factory Dry/Wet curve, with saved choices retained. Recent MIDI smoothing, endpoint and project-save fixes are included.
+
+Read the [release notes](CHANGELOG.md) for details. Automated audio, MIDI, state and GUI checks passed; real DAW, controller and sidechain testing remains important.
 
 ## Feedback
 
