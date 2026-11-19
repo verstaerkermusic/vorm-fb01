@@ -63,3 +63,7 @@ Please [open an issue](https://github.com/verstaerkermusic/vorm-fb01/issues) and
 If you enjoy the project, you can [buy me a coffee](https://buymeacoffee.com/verstaerker).
 
 This repository contains the project page, interface previews and release information. The plug-in source code is not published here.
+
+## How this mas made
+Using AI i was able to crate my own plugin. I'm no programmer but i'm an experienced music-producer and CG-artist. 
+So developed this with the help of chatGPT. The GUI was created with traditional 3D rendering skills, AI helped to implement it into the plugin.  
