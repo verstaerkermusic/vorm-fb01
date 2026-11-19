@@ -20,6 +20,7 @@ Shape drums, synths and textures with subtle movement, resonant sweeps or intens
 - Optional character controls: noise, hum, FM bleed and Out1 asymmetry.
 - Preset browser, A/B comparison, custom Init settings and MIDI Learn with controller profiles.
 - Gain Match, Wet Level, output limiter/clipper, stereo-width control and selectable processing quality up to 384 kHz.
+- Optional compact interface with unchanged control sizes, alongside Bright and Dark themes.
 - Linked knob pairs: Cmd-drag on macOS or Ctrl-drag on Windows, preserving their relative offset.
 
 ## Platforms
@@ -30,13 +31,13 @@ Shape drums, synths and textures with subtle movement, resonant sweeps or intens
 - Host sample rates from 32 to 192 kHz, including 44.1 and 48 kHz.
 - English and German interface and guides.
 
-## Downloads — 0.27.2 beta
+## Downloads — 0.27.3 beta
 
-- **[macOS — AU, VST3 and CLAP, Apple Silicon / Intel](https://github.com/verstaerkermusic/vorm-fb01/releases/download/v0.27.2/VORM-fb01-0.27.2-macOS-universal.zip)**
-- **[Windows x64 — VST3 and CLAP](https://github.com/verstaerkermusic/vorm-fb01/releases/download/v0.27.2/VORM-fb01-0.27.2-Windows-x64-beta.zip)**
-- **[Linux x86_64 beta — VST3, LV2 and CLAP](https://github.com/verstaerkermusic/vorm-fb01/releases/download/v0.27.2/VORM-fb01-0.27.2-Linux-x86_64-beta-r2.tar.gz)**
+- **[macOS — AU, VST3 and CLAP, Apple Silicon / Intel](https://github.com/verstaerkermusic/vorm-fb01/releases/download/v0.27.3/VORM-fb01-0.27.3-macOS-universal.zip)**
+- **[Windows x64 — VST3 and CLAP](https://github.com/verstaerkermusic/vorm-fb01/releases/download/v0.27.3/VORM-fb01-0.27.3-Windows-x64-beta.zip)**
+- **[Linux x86_64 beta — VST3, LV2 and CLAP](https://github.com/verstaerkermusic/vorm-fb01/releases/download/v0.27.3/VORM-fb01-0.27.3-Linux-x86_64-beta.tar.gz)**
 
-See the [release page](https://github.com/verstaerkermusic/vorm-fb01/releases/tag/v0.27.2) for SHA256 checksums, the [English guide](https://github.com/verstaerkermusic/vorm-fb01/releases/download/v0.27.2/VORM_fb01_Quick_Guide_EN.pdf), [German guide](https://github.com/verstaerkermusic/vorm-fb01/releases/download/v0.27.2/VORM_fb01_Schnellanleitung_DE.pdf) and [one-page flyer](https://github.com/verstaerkermusic/vorm-fb01/releases/download/v0.27.2/VORM_fb01_Flyer_EN.pdf).
+See the [release page](https://github.com/verstaerkermusic/vorm-fb01/releases/tag/v0.27.3) for SHA256 checksums, the [English guide](https://github.com/verstaerkermusic/vorm-fb01/releases/download/v0.27.3/VORM_fb01_Quick_Guide_EN.pdf), [German guide](https://github.com/verstaerkermusic/vorm-fb01/releases/download/v0.27.3/VORM_fb01_Schnellanleitung_DE.pdf) and [one-page flyer](https://github.com/verstaerkermusic/vorm-fb01/releases/download/v0.27.3/VORM_fb01_Flyer_EN.pdf).
 
 Quit your DAW before installing. Follow **README.txt in your platform package** and keep only one copy of each plug-in ID in the scan folders. Back up/remove old copies when updating.
 
@@ -50,7 +51,7 @@ The PDF guides describe the controls; their installation Quick Start covers macO
 
 ## What's included
 
-Bright and Dark interfaces with soft LED falloff; a permanent Input / Wet Level / Output row; processing quality in Settings; Equal Power as the factory Dry/Wet curve, with saved choices retained. Recent MIDI smoothing, endpoint and project-save fixes are included.
+Optional Compact interface in Settings, with the layout saved per project and available as a default for new instances. Revised Bright/Dark PAR/SER and Dry/Wet graphics. Soft LED falloff, a permanent Input / Wet Level / Output row, processing quality in Settings and Equal Power as the factory Dry/Wet curve remain included. Audio processing is unchanged from 0.27.2.
 
 Read the [release notes](CHANGELOG.md) for details. Automated audio, MIDI, state and GUI checks passed; real DAW, controller and sidechain testing remains important.
 

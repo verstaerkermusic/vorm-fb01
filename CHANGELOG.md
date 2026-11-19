@@ -1,3 +1,13 @@
+# 0.27.3 beta
+
+- Optional Compact interface in Settings: approximately 15% less window height at unchanged control size.
+- View persists in projects, can be remembered for new instances, and is retained across sound preset and A/B changes. Full view remains the factory default.
+- Revised Bright/Dark PAR/SER and Dry/Wet knob graphics.
+- Updated English/German guides.
+- No audio processing changes.
+
+Available for macOS (AU/VST3/CLAP), Windows x64 (VST3/CLAP) and Linux x86_64 (VST3/LV2/CLAP).
+
 # VØRM FB01 0.27.2 beta
 
 Analog filtering, powerful saturation and hands-on modulation for macOS, Windows and Linux.
