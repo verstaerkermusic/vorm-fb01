@@ -6,7 +6,13 @@ Analog filtering, powerful saturation and hands-on modulation for macOS, Windows
 
 - macOS 12+: universal Apple Silicon / Intel, AU / VST3 / CLAP.
 - Windows 10/11 x64: VST3 / CLAP.
-- Linux x86_64: VST3 / LV2, built on Ubuntu 22.04 with an X11 editor. First Linux beta; real DAW testing is still needed.
+- Linux x86_64 r2: VST3 / LV2 / CLAP, built on Ubuntu 22.04 with an X11 editor. First Linux beta; real DAW testing is still needed.
+
+## Linux package revision r2
+
+- Adds Linux CLAP with audio, state, MIDI and X11 editor checks at 44.1/48/96 kHz.
+- Sound processing and the approved V23 interface are unchanged. macOS and Windows packages are unchanged.
+- Install the CLAP file in ~/.clap/ or a host-configured CLAP folder.
 
 ## Changes and features
 
@@ -28,13 +34,13 @@ macOS: extract the complete ZIP and run Install-VORM-fb01.command. This beta is 
 
 Windows: copy the entire VST3 bundle and/or CLAP file to the corresponding plug-in folder. Rescan the DAW.
 
-Linux: extract the tar.gz archive and copy the complete VST3 bundle to ~/.vst3/ and/or the complete LV2 bundle to ~/.lv2/. The graphical editor uses X11; Wayland sessions may use XWayland. Other distributions need testing.
+Linux: extract the tar.gz archive and copy the complete VST3 bundle to ~/.vst3/ and/or the complete LV2 bundle to ~/.lv2/. Copy the CLAP file to ~/.clap/. The graphical editor uses X11; Wayland sessions may use XWayland. Other distributions need testing.
 
 English/German control guides are included; their Quick Start installation section describes macOS. Use the package README for Windows/Linux installation.
 
 ## Validation and feedback
 
-Automated DSP, MIDI, state and GUI checks passed on all three platforms. Linux also passed actual VST3 factory loading and LV2 metadata/instantiation/MIDI-event/audio checks at 44.1, 48 and 96 kHz. These checks do not replace hands-on DAW, controller and sidechain validation.
+Automated DSP, MIDI, state and GUI checks passed on all three platforms. Linux also passed actual VST3 factory loading and LV2 metadata/instantiation/MIDI-event/audio checks at 44.1, 48 and 96 kHz. The added CLAP format also passed factory/parameter/state/MIDI/audio and X11 GUI checks at those rates. These checks do not replace hands-on DAW, controller and sidechain validation.
 
 Project and feedback: https://github.com/verstaerkermusic/vorm-fb01
 Support: https://buymeacoffee.com/verstaerker
