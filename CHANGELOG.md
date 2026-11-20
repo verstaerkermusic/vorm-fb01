@@ -1,3 +1,14 @@
+# 0.27.6 beta
+
+- Added Flat alongside revised Bright/Dark graphics with corrected knob edges.
+- Added Gain/Gamma appearance controls (0.80-1.30, neutral 1.00) with reset, project recall and defaults for new instances. Sound presets/A-B retain appearance settings.
+- Corrected LED glow exports and intermediate-frame blending to preserve soft falloff and the bright core.
+- Fixed editor shrinking after Gain/Gamma changes on Retina/HiDPI displays; regression checks cover 1x to 3x.
+- All three themes support full/compact view. Updated English/German guides.
+- No audio processing changes.
+
+macOS: universal AU/VST3/CLAP. Windows x64: VST3/CLAP. Linux x86_64: VST3/LV2/CLAP, Ubuntu 22.04 baseline and X11 editor.
+
 # 0.27.3 beta
 
 - Optional Compact interface in Settings: approximately 15% less window height at unchanged control size.

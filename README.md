@@ -20,7 +20,8 @@ Shape drums, synths and textures with subtle movement, resonant sweeps or intens
 - Optional character controls: noise, hum, FM bleed and Out1 asymmetry.
 - Preset browser, A/B comparison, custom Init settings and MIDI Learn with controller profiles.
 - Gain Match, Wet Level, output limiter/clipper, stereo-width control and selectable processing quality up to 384 kHz.
-- Optional compact interface with unchanged control sizes, alongside Bright and Dark themes.
+- Appearance Gain and Gamma from 0.80 to 1.30, with project recall and defaults for new instances.
+- Optional compact interface with unchanged control sizes, alongside Bright, Dark and Flat themes.
 - Linked knob pairs: Cmd-drag on macOS or Ctrl-drag on Windows, preserving their relative offset.
 
 ## Platforms
@@ -31,13 +32,13 @@ Shape drums, synths and textures with subtle movement, resonant sweeps or intens
 - Host sample rates from 32 to 192 kHz, including 44.1 and 48 kHz.
 - English and German interface and guides.
 
-## Downloads — 0.27.3 beta
+## Downloads — 0.27.6 beta
 
-- **[macOS — AU, VST3 and CLAP, Apple Silicon / Intel](https://github.com/verstaerkermusic/vorm-fb01/releases/download/v0.27.3/VORM-fb01-0.27.3-macOS-universal.zip)**
-- **[Windows x64 — VST3 and CLAP](https://github.com/verstaerkermusic/vorm-fb01/releases/download/v0.27.3/VORM-fb01-0.27.3-Windows-x64-beta.zip)**
-- **[Linux x86_64 beta — VST3, LV2 and CLAP](https://github.com/verstaerkermusic/vorm-fb01/releases/download/v0.27.3/VORM-fb01-0.27.3-Linux-x86_64-beta.tar.gz)**
+- **[macOS — AU, VST3 and CLAP, Apple Silicon / Intel](https://github.com/verstaerkermusic/vorm-fb01/releases/download/v0.27.6/VORM-fb01-0.27.6-macOS-universal.zip)**
+- **[Windows x64 — VST3 and CLAP](https://github.com/verstaerkermusic/vorm-fb01/releases/download/v0.27.6/VORM-fb01-0.27.6-Windows-x64-beta.zip)**
+- **[Linux x86_64 beta — VST3, LV2 and CLAP](https://github.com/verstaerkermusic/vorm-fb01/releases/download/v0.27.6/VORM-fb01-0.27.6-Linux-x86_64-beta.tar.gz)**
 
-See the [release page](https://github.com/verstaerkermusic/vorm-fb01/releases/tag/v0.27.3) for SHA256 checksums, the [English guide](https://github.com/verstaerkermusic/vorm-fb01/releases/download/v0.27.3/VORM_fb01_Quick_Guide_EN.pdf), [German guide](https://github.com/verstaerkermusic/vorm-fb01/releases/download/v0.27.3/VORM_fb01_Schnellanleitung_DE.pdf) and [one-page flyer](https://github.com/verstaerkermusic/vorm-fb01/releases/download/v0.27.3/VORM_fb01_Flyer_EN.pdf).
+See the [release page](https://github.com/verstaerkermusic/vorm-fb01/releases/tag/v0.27.6) for SHA256 checksums, the [English guide](https://github.com/verstaerkermusic/vorm-fb01/releases/download/v0.27.6/VORM_fb01_Quick_Guide_EN.pdf), [German guide](https://github.com/verstaerkermusic/vorm-fb01/releases/download/v0.27.6/VORM_fb01_Schnellanleitung_DE.pdf) and [one-page flyer](https://github.com/verstaerkermusic/vorm-fb01/releases/download/v0.27.6/VORM_fb01_Flyer_EN.pdf).
 
 Quit your DAW before installing. Follow **README.txt in your platform package** and keep only one copy of each plug-in ID in the scan folders. Back up/remove old copies when updating.
 
@@ -51,7 +52,7 @@ The PDF guides describe the controls; their installation Quick Start covers macO
 
 ## What's included
 
-Optional Compact interface in Settings, with the layout saved per project and available as a default for new instances. Revised Bright/Dark PAR/SER and Dry/Wet graphics. Soft LED falloff, a permanent Input / Wet Level / Output row, processing quality in Settings and Equal Power as the factory Dry/Wet curve remain included. Audio processing is unchanged from 0.27.2.
+Revised Bright and Dark graphics plus the new Flat theme; corrected LED glow and intermediate-frame blending. Gain and Gamma in Settings adjust the rendered interface from 0.80 to 1.30, with neutral 1.00 and a reset. Appearance and compact view are saved per project and can be remembered for new instances. The HiDPI fix keeps the editor at its full size after appearance changes. Audio processing is unchanged.
 
 Read the [release notes](CHANGELOG.md) for details. Automated audio, MIDI, state and GUI checks passed; real DAW, controller and sidechain testing remains important.
 
