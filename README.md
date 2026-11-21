@@ -16,8 +16,9 @@ Shape drums, synths and textures with subtle movement, resonant sweeps or intens
 - Nonlinear input drive, saturation and signal-dependent resonance.
 - FM and AM with internal sources and external sidechain inputs.
 - ADSR, AR and Envelope Follower with audio and MIDI triggering.
-- LFO modulation from slow movement into audio rate, plus Harmonics sync.
-- Optional character controls: noise, hum, FM bleed and Out1 asymmetry.
+- LFO modulation with host-tempo sync from 4 bars to 1/128, a seamless transition into audio rate, and separate Harmonics sync.
+- Wet-only three-band Pre-EQ before drive and saturation, with adjustable shelf frequencies.
+- Optional character controls: noise, hum, FM bleed, Out1 asymmetry and LFO bleed with a fixed 40 Hz high-pass.
 - Preset browser, A/B comparison, custom Init settings and MIDI Learn with controller profiles.
 - Gain Match, Wet Level, output limiter/clipper, stereo-width control and selectable processing quality up to 384 kHz.
 - Appearance Gain and Gamma from 0.80 to 1.30, with project recall and defaults for new instances.
@@ -32,13 +33,13 @@ Shape drums, synths and textures with subtle movement, resonant sweeps or intens
 - Host sample rates from 32 to 192 kHz, including 44.1 and 48 kHz.
 - English and German interface and guides.
 
-## Downloads — 0.27.6 beta
+## Downloads — 0.29.0 beta
 
-- **[macOS — AU, VST3 and CLAP, Apple Silicon / Intel](https://github.com/verstaerkermusic/vorm-fb01/releases/download/v0.27.6/VORM-fb01-0.27.6-macOS-universal.zip)**
-- **[Windows x64 — VST3 and CLAP](https://github.com/verstaerkermusic/vorm-fb01/releases/download/v0.27.6/VORM-fb01-0.27.6-Windows-x64-beta.zip)**
-- **[Linux x86_64 beta — VST3, LV2 and CLAP](https://github.com/verstaerkermusic/vorm-fb01/releases/download/v0.27.6/VORM-fb01-0.27.6-Linux-x86_64-beta.tar.gz)**
+- **[macOS — AU, VST3 and CLAP, Apple Silicon / Intel](https://github.com/verstaerkermusic/vorm-fb01/releases/download/v0.29.0/VORM-fb01-0.29.0-macOS-universal.zip)**
+- **[Windows x64 — VST3 and CLAP](https://github.com/verstaerkermusic/vorm-fb01/releases/download/v0.29.0/VORM-fb01-0.29.0-Windows-x64-beta.zip)**
+- **[Linux x86_64 beta — VST3, LV2 and CLAP](https://github.com/verstaerkermusic/vorm-fb01/releases/download/v0.29.0/VORM-fb01-0.29.0-Linux-x86_64-beta.tar.gz)**
 
-See the [release page](https://github.com/verstaerkermusic/vorm-fb01/releases/tag/v0.27.6) for SHA256 checksums, the [English guide](https://github.com/verstaerkermusic/vorm-fb01/releases/download/v0.27.6/VORM_fb01_Quick_Guide_EN.pdf), [German guide](https://github.com/verstaerkermusic/vorm-fb01/releases/download/v0.27.6/VORM_fb01_Schnellanleitung_DE.pdf) and [one-page flyer](https://github.com/verstaerkermusic/vorm-fb01/releases/download/v0.27.6/VORM_fb01_Flyer_EN.pdf).
+See the [release page](https://github.com/verstaerkermusic/vorm-fb01/releases/tag/v0.29.0) for SHA256 checksums, the [English guide](https://github.com/verstaerkermusic/vorm-fb01/releases/download/v0.29.0/VORM_fb01_Quick_Guide_EN.pdf), [German guide](https://github.com/verstaerkermusic/vorm-fb01/releases/download/v0.29.0/VORM_fb01_Schnellanleitung_DE.pdf) and [one-page flyer](https://github.com/verstaerkermusic/vorm-fb01/releases/download/v0.29.0/VORM_fb01_Flyer_EN.pdf).
 
 Quit your DAW before installing. Follow **README.txt in your platform package** and keep only one copy of each plug-in ID in the scan folders. Back up/remove old copies when updating.
 
@@ -52,7 +53,9 @@ The PDF guides describe the controls; their installation Quick Start covers macO
 
 ## What's included
 
-Revised Bright and Dark graphics plus the new Flat theme; corrected LED glow and intermediate-frame blending. Gain and Gamma in Settings adjust the rendered interface from 0.80 to 1.30, with neutral 1.00 and a reset. Appearance and compact view are saved per project and can be remembered for new instances. The HiDPI fix keeps the editor at its full size after appearance changes. Audio processing is unchanged.
+New LFO Tempo Sync follows host tempo and time signature from 4 bars through 1/128. Turn Speed further to enter audio rate without a frequency jump. Click the wave icon to enable Sync; green means active. Optional LFO Bleed adds the raw LFO to the wet input with a fixed 40 Hz high-pass. A new wet-only Pre-EQ shapes Low, Mid and High before input saturation. All new features default off/neutral in existing projects.
+
+Bright, Dark and Flat themes retain full/compact views, adjustable Gain/Gamma appearance and corrected soft LED glow. English and German PDF guides have been updated.
 
 Read the [release notes](CHANGELOG.md) for details. Automated audio, MIDI, state and GUI checks passed; real DAW, controller and sidechain testing remains important.
 

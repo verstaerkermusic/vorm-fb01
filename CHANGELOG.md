@@ -1,3 +1,18 @@
+# vørm fb01 0.29.0 beta
+
+- **LFO Tempo Sync:** click the wave icon below/between Speed and Depth. Green means enabled. Speed selects 4 bars, 2 bars, 1 bar, 1/2, 1/4, 1/8, 1/16, 1/32, 1/64 and 1/128 over the lower 70% of the knob range.
+- Above that range, Speed moves continuously into audio rate, starting at the last synced frequency without a backward jump (64 Hz at 120 BPM in 4/4), up to 3823.6 Hz.
+- Sync follows host tempo and time signature, with musical phase alignment during playback. ADSR > Speed can still modulate the selected base rate; strict phase locking is suspended during that intentional modulation. Without host tempo, the starting fallback is 120 BPM.
+- **LFO Bleed:** a new Hardware Character control mixes the existing raw LFO into the wet input stage independently of Depth. A fixed 40 Hz, 24 dB/octave high-pass suppresses subsonic content. All character presets start with Bleed at 0; manual bleed edits select Custom.
+- **Wet Pre-EQ (introduced in the macOS 0.28.0 test build):** Low, Mid and High gain controls (-24 to +12 dB), adjustable low/high shelf frequencies and an independent EQ switch. Processes only the wet program signal before input drive, saturation and internal envelope detection; external sidechains and added character signals are unaffected.
+- EQ controls support MIDI Learn and are stored in projects, sound presets, Init and A/B. Changes are smoothed; no extra latency.
+- New controls default off/neutral in existing projects. Dry and full bypass remain unchanged. Existing parameter IDs/order are retained; new parameters are appended.
+- Updated English and German guides.
+
+macOS 12+: universal Apple Silicon/Intel AU, VST3 and CLAP. Windows 10/11 x64: VST3 and CLAP. Linux x86_64 beta: VST3, LV2 and CLAP, Ubuntu 22.04 baseline with X11 editor.
+
+Use the README in your platform package for installation. Automated checks do not replace hands-on DAW, controller and sidechain testing.
+
 # 0.27.6 beta
 
 - Added Flat alongside revised Bright/Dark graphics with corrected knob edges.
