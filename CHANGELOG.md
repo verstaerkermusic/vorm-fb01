@@ -1,3 +1,16 @@
+# vørm fb01 0.29.1 beta
+
+- Revised Input knob and nonlinear glow across Bright, Dark and Flat, with the knob and lighting rendered together and LED lighting adapted to the new panels.
+- A bounded background cache loads the Input animation at full resolution with premultiplied interpolation, instead of keeping the entire decoded animation atlas in memory.
+- Universal macOS bundles share artwork between Apple Silicon and Intel, reducing duplicated resources. Artwork stays inside each plug-in bundle.
+- macOS installer now offers User or System-wide installation, followed by All / VST3 / AU / CLAP. Single-format installation backs up and removes other formats only in the selected location; installation failures restore replacements and removed formats.
+- Updated English/German Quick Start and PDF guides. No developer tools required on the destination Mac.
+- No DSP changes from 0.29.0. Existing projects and presets remain compatible.
+
+macOS 12+: universal Apple Silicon/Intel AU, VST3 and CLAP. Windows 10/11 x64: VST3 and CLAP. Linux x86_64 beta: VST3, LV2 and CLAP, Ubuntu 22.04 baseline with X11 editor.
+
+Use the README in your platform package for installation. Automated checks do not replace hands-on DAW, controller and sidechain testing.
+
 # vørm fb01 0.29.0 beta
 
 - **LFO Tempo Sync:** click the wave icon below/between Speed and Depth. Green means enabled. Speed selects 4 bars, 2 bars, 1 bar, 1/2, 1/4, 1/8, 1/16, 1/32, 1/64 and 1/128 over the lower 70% of the knob range.
