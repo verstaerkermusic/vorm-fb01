@@ -1,3 +1,18 @@
+# vørm fb01 0.29.3 beta
+
+- **True stereo input.** Select Stereo in the input menu, then Main Stereo or Out1 Stereo. The left and right channels have independent filters, saturation and Envelope Followers. LFO, ADSR and AR triggers are linked. Stereo external sidechains follow the matching channels. Mono sidechains feed both.
+- **Faster processing.** The internal oversampling filters use the symmetry of their existing coefficients to reduce work. The current mono modes and automation assignments remain available. Existing sessions keep their saved routing.
+- **Eco mode.** Available under Settings > Processing Quality. At 44.1 and 48 kHz it uses shorter sample-rate filters and can slightly change the highest frequencies. At other host rates it behaves like Low.
+- Updated English and German guides.
+
+Select Mono for a single processing path. Stereo runs both channels through the model and requires more CPU.
+
+- **macOS 12+ (universal):** AU, VST3, CLAP.
+- **Windows 10/11 (x64):** VST3, CLAP.
+- **Linux (x86_64 beta):** VST3, LV2, CLAP. Ubuntu 22.04 baseline with X11 editor.
+
+See the README inside your download for installation instructions. The public downloads contain the plug-in binaries and documentation.
+
 # vørm fb01 0.29.1 beta
 
 - Revised Input knob and nonlinear glow across Bright, Dark and Flat, with the knob and lighting rendered together and LED lighting adapted to the new panels.
